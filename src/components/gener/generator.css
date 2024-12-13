@@ -1,0 +1,81 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.986)),
+    url("https://media.istockphoto.com/id/1470617656/vector/ai-artificial-intelligence-chipset-on-circuit-board-in-futuristic-concept-suitable-for.jpg?s=612x612&w=0&k=20&c=_wC-pphyNI2muaUHG4N9JuYXxJEMDuzx56Dvzr8ZDUk=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: white;
+  font-size: 40px;
+}
+.default {
+  width: 400px;
+  height: 400px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.box-image {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.info {
+  width: 400px;
+  padding: 20px 40px;
+}
+.info input {
+  border: none;
+  padding: 20px 35px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgba(32, 30, 30, 0.726);
+  border-bottom: 4px solid rgb(0, 37, 117);
+  font-size: 22px;
+  color: whitesmoke;
+}
+.info input:focus {
+  border: 4px solid rgb(0, 37, 117);
+  outline: none;
+}
+.info input::placeholder {
+  font-size: 20px;
+  outline: none;
+}
+button {
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 50px;
+  font-size: 20px;
+  background-color: rgb(0, 37, 117);
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 3px 3px 10px rgb(32, 39, 56);
+}
+.loading {
+  width: 0px;
+  height: 8px;
+  background-color: rebeccapurple;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.loading-full {
+  width: 100%;
+  height: 8px;
+  background-color: rebeccapurple;
+  margin-top: 10px;
+  border-radius: 20px;
+  transition: all 15s;
+}
